@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form class="registrasi-title" action="/signup" method="post">
+
+        <!-- header -->
+        <div class="header">
+          <h1>Sign Up</h1>
+        </div>
+  
+        <!-- body -->
+        <div class="body">
+  
+          <!-- nama -->
+          <div class="input">
+           
+              <label for="Nama" class="label-nama">Nama</label>
+              <input type="text" id="Nama" class="field-input" placeholder="Nama" required="required" />
+           
+          </div>
+
+          <div class="input">
+           
+              <label for="Username" class="label-nama">Username</label>
+              <input type="text" id="Username" class="field-input" placeholder="Username" required="required" />
+           
+          </div>
+  
+          <!-- password -->
+          <div class="input">
+            
+              <label for="password" class="label-nama">Password </label>
+              <input type="password" id="password" class="field-input" placeholder="Password" required="required">
+           
+          </div>
+  
+          <!-- jenis kelamin -->
+          <div class="input">
+            
+              <label class="label-nama">Jenis Kelamin:</label>
+              <div class="radio-group">
+                <label for="Laki-laki"><input type="radio" name="JK" value="Laki-laki" id="Laki-laki"> Laki-laki</label>
+                <label for="Perempuan"><input type="radio" name="JK" value="Perempuan" id="Perempuan"> Perempuan</label>
+          </div>
+  
+          <!-- no telepon -->
+          <div class="input">
+                <label for="notelepon" class="label-nama">No Telepon </label>
+                <input type="notelepon" id="notelepon" class="field-input" placeholder="No Telepon" required="required">
+             <br><br>
+          </div>
+        </div>
+  
+        <!-- footer -->
+        <div class="button-group">
+          <a href="login.html">
+          <button type="button" class="newaccbtn">Create New Account</button>
+          </a>
+         </div>  
+      </form>
+  
+</body>
+</html>
